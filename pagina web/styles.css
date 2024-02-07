@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto; /* Esto centrará horizontalmente el contenedor */
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.item {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.item2 {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.item p {
+    margin: 10px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input,
+form select,
+form button {
+    margin: 5px;
+}
+.search-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
